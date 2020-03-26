@@ -33,6 +33,7 @@ To answer these questions we walk through many different pandas & matplotlib met
 
 
 #### Data wrangling.
+
 df.head()
 
 
@@ -64,7 +65,7 @@ df.head()
 |       9 |              13109 |  2.08499e+06 | 2.09756e+06 |
 |       1 |              10903 |  1.81177e+06 | 1.82226e+06 |
 
-![Question 1 screenshot](../SalesAnalysis/Plots/1.1.png)
+![Question 1 screenshot](/SalesAnalysis/Plots/1.1.png)
 
 ### Question 2: What city had the highest number of sales?
 | City               |   Quantity Ordered |       Price Each |            Sales |   Month |
@@ -80,7 +81,8 @@ df.head()
 | Austin (TX)        |              11153 |      1.80987e+06 |      1.81958e+06 |   69829 |
 | Portland (ME)      |               2750 | 447189           | 449758           |   17144 |
 
-![Question 2 screenshot](../SalesAnalysis/Plots/2.1.png)
+![Question 2 screenshot](/SalesAnalysis/Plots/2.1.png)
+
 sales_df.head()
 
 ### Question 3: What time should we display advertisements to maximize likelihood of customer's buying product?
@@ -92,7 +94,8 @@ sales_df.head()
 |  4 |     176560 | Wired Headphones           |                  1 |        11.99 |   11.99 | 2019-04-12 14:38:00 |       4 | 669 Spruce St, Los Angeles, CA 90001 | Los Angeles (CA) |
 |  5 |     176561 | Wired Headphones           |                  1 |        11.99 |   11.99 | 2019-04-30 09:27:00 |       4 | 333 8th St, Los Angeles, CA 90001    | Los Angeles (CA) |
 
-![Question 3 screenshot](../SalesAnalysis/Plots/3.1.png)
+![Question 3 screenshot](/SalesAnalysis/Plots/3.1.png)
+
 Above we can see that we have 2 peaks of orders, on 12pm and 19pm. So my recommendation is around 11 am and/or 18am.
 
 ### Question 4: What products are most sold together?
@@ -104,7 +107,6 @@ Above we can see that we have 2 peaks of orders, on 12pm and 19pm. So my recomme
 |  32 |     176586 | AAA Batteries (4-pack),Google Phone                   |
 | 119 |     176672 | Lightning Charging Cable,USB-C Charging Cable         |
 
-![Question 4 screenshot](../SalesAnalysis/Plots/4.1.png)
 
 ### Question 5: What product sold the most? Why do you think it sold the most?
 |Product                      |Quantity Ordered|
@@ -129,7 +131,7 @@ Above we can see that we have 2 peaks of orders, on 12pm and 19pm. So my recomme
 |Wired Headphones             |  20557         |
 |iPhone                       |   6849         |
 
-![Question 5 screenshot](../SalesAnalysis/Plots/5.1.png)
+![Question 5 screenshot](/SalesAnalysis/Plots/5.1.png)
 
 |Product                      | Mean Prices    |
 |:----------------------------|:--------------:|
@@ -153,6 +155,8 @@ Above we can see that we have 2 peaks of orders, on 12pm and 19pm. So my recomme
 |Wired Headphones             |   11.99        |
 |iPhone                       |  700.00        |
 
-![Question 5 screenshot](../SalesAnalysis/Plots/5.2.png)
+![Question 5 screenshot](/SalesAnalysis/Plots/5.2.png)
+
 The products that sold the most were AA and AAA Batteries (4-pack).
+
 I think it happened because the batteries are very cheap and used a lot in many devices.
